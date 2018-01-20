@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+//importar
+
+
+import Texto, {Boton,BotonAnimado} from './Componentes/Texto';
 
 class App extends Component {
   render() {
@@ -10,9 +14,9 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">REACT EL FUTURO</h1>
         </header>
-        <p className="App-intro">
-          somos un ppupu arrechisimo como con sangre
-        </p>
+       <Texto />
+       <Boton />
+       <BotonAnimado />
       </div>
     );
   }
